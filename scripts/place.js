@@ -1,5 +1,5 @@
 const currentYear = new Date().getFullYear();
-document.getElementById("currentyear").textcontent = currentYear;
+document.getElementById("currentyear").textContent = currentYear;
 
 const lastModified = document.lastModified;
 document.getElementById("lastModified").textContent = lastModified
@@ -10,7 +10,7 @@ const windSpeed = 3;
 
 const tempSpan = document.getElementById("temp");
 const windSpeedSpan = document.getElementById("wind-speed");
-const windChillspan = document.getElementById("wind-chill");
+const windChillSpan = document.getElementById("wind-chill");
 const conditionsSpan = document.getElementById("conditions");
 
 tempSpan.textContent = temperature;
