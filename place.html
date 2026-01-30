@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Las Vegas, Nevada</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="place.js" defer></script>
+
+    <meta name="description"
+        content=" This is a description for the place Las Vegas, Nevada. It is for a  web fundamentals class, WDD 130. This is an example of a created site made by me Andrew Lebon.">
+    <meta name="author" content="Andrew Lebon">
+
+</head>
+
+<body>
+    <header>
+       <h1>Las Vegas, Nevada</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/lasvegas-2" media="(min-width: 750px)">
+                 <img src="images/lasvegas-1.WebP" alt="Las Vegas Sign ">
+            </picture>
+        </section>
+        
+        <section>
+            <h2>Data</h2>
+            <p>
+                <strong>Country:</strong> United States
+            </p>
+
+            <p>
+                <strong>State:</strong> Nevada
+            </p>
+
+            <p>
+                <strong>Metropolitan Area:</strong> ~2.4 million
+            </p>
+
+            <p>
+                <strong>Founded:</strong> 1905
+            </p>
+
+            <p>
+                <strong>UTC Time:</strong> UTC-8
+            </p>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt="Sunny" class="weather-icon">
+
+            <p>Temperature: <span id="temp">56</span>&deg;F</p>
+            <p>Conditions: <span id="conditions">Sunny</span></p>
+            <p>Wind: <span id="wind speed">3</span>MPH</p>
+            <p>Wind Chill: <span id="wind chill">53</span>&deg;F</p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p> <span id="currentyear"></span>
+            🦂Andrew Lebon🦂 Las Vegas,Nevada,United States Of America</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
